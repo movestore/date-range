@@ -1,0 +1,18 @@
+{
+  "settings": [
+    {
+      "id": "startTimestamp",
+      "name": "Start",
+      "description": "Select the start date you want to filter the data for.",
+      "type": "INSTANT",
+      "defaultValue": null
+    },
+    {
+      "id": "endTimestamp",
+      "name": "End",
+      "description": "Select the end date you want to filter the data for.",
+      "type": "INSTANT",
+      "defaultValue": null
+    }
+  ]
+}
