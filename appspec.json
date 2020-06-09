@@ -14,5 +14,15 @@
       "type": "INSTANT",
       "defaultValue": null
     }
-  ]
+  ],
+  "dependencies": {
+    "R": [
+      {
+        "name": "move"
+      },
+      {
+        "name": "lubridate"
+      }
+    ]
+  }
 }
