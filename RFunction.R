@@ -1,6 +1,8 @@
 require('move')
 library('lubridate')
 
+#test
+
 rFunction = function(startTimestamp, endTimestamp, data) {
     if(is.na(interval(paste0(startTimestamp, "/", endTimestamp)))) {
       start <- strptime(startTimestamp, "%Y-%m-%dT%H:%M:%S")
